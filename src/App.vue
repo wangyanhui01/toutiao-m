@@ -1,15 +1,17 @@
 <template>
-  <div>
-    3334324242
+  <div id="app">
+     <h1>黑马头条</h1>
+     <!-- 路由的出口 -->
+     <router-view />
   </div>
 </template>
 
 <script>
 export default {
-
+   name:'APP',
 }
 </script>
 
-<style>
+<style lang="less" scoped>
 
 </style>
