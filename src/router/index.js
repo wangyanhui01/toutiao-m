@@ -49,6 +49,12 @@ const routes = [
     component: () => import('@/views/search'),
 
   },
+  {
+    path: '/article/:articleId',
+    name: 'article',
+    component: () => import('@/views/article'),
+    props:true, //开启props传参数就是把路由参数映射到组件中
+  },
 ]
 
 const router = new VueRouter({

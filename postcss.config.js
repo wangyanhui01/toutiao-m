@@ -11,6 +11,9 @@ module.exports = {
         },
         // 可以是固定数值，也可以是一个动态函数
         propList: ['*'],
+
+        // 配置不要转换的资源
+        exclude:'github-markdown'
       },
     },
   };
