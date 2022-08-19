@@ -12,7 +12,7 @@
     <div class="main-wrap">
       <!-- 加载中 -->
       <div class="loading-wrap" v-if="loading">
-        <van-loading color="#3296fa" vertical>加载中</van-loading>
+        <van-loading color="#3296fa" vertical>正在加载中，别着急</van-loading>
       </div>
       <!-- /加载中 -->
 
